@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace InheritanceMapping
 {
-    class Party
+    public class Party
     {
+        public virtual Guid Id { get; set; }
         public virtual string Address { get; set; }
         public virtual int PhoneNumber { get; set; }
         public virtual string EmailAddress { get; set; }
