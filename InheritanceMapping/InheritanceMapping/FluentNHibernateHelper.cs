@@ -25,7 +25,7 @@ namespace InheritanceMapping
 
         private static ISessionFactory CreatSessionFactory() 
         {
-            string ConnectionString = "Data Source=T-SAFARI;Initial Catalog=testInventoryDB ;User ID=sa;Password=s@123456";
+            string ConnectionString = "Data Source=.;Initial Catalog=InheritanchTestDB;Integrated Security=True";// Write your Connect String here
             _sessionFactory = Fluently.Configure()
                 .Database(MsSqlConfiguration.MsSql2012.ConnectionString(ConnectionString).ShowSql())
                 .Mappings(m => m.FluentMappings.AddFromAssemblyOf<Program>())
