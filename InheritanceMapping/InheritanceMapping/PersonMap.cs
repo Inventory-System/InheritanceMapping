@@ -15,10 +15,9 @@ namespace InheritanceMapping
             Map(x => x.NationalIdentityNumber);
             Map(x => x.FirstName);
             Map(x => x.LastName);
-            Map(x => x.PhoneNumber);
-            Map(x => x.Address);
-            Map(x => x.Birthdate);
             Map(x => x.EmailAddress);
+            Map(x => x.Address);
+            Map(x => x.PhoneNumber);
             
         }
     }

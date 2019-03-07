@@ -10,6 +10,7 @@ namespace InheritanceMapping
     {
         static void Main(string[] args)
         {
+           
         }
     }
 }
