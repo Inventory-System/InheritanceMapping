@@ -69,6 +69,14 @@
     <Compile Include="Company.cs" />
     <Compile Include="CompanyMap.cs" />
     <Compile Include="FluentNHibernateHelper.cs" />
+    <Compile Include="InheritanceMapping3\Company.cs" />
+    <Compile Include="InheritanceMapping3\CompanyMap.cs" />
+    <Compile Include="InheritanceMapping3\FluentNHibernateHelper.cs" />
+    <Compile Include="InheritanceMapping3\Party.cs" />
+    <Compile Include="InheritanceMapping3\PartyMap.cs" />
+    <Compile Include="InheritanceMapping3\Person.cs" />
+    <Compile Include="InheritanceMapping3\PersonMap.cs" />
+    <Compile Include="InheritanceMapping3\Program.cs" />
     <Compile Include="Party.cs" />
     <Compile Include="PartyMap.cs" />
     <Compile Include="Person.cs" />
