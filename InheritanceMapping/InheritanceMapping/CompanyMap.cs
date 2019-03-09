@@ -8,18 +8,15 @@ using FluentNHibernate.Mapping;
 
 namespace InheritanceMapping
 {
-    public class CompanyMap:ClassMap<Company>
+    public class CompanyMap : SubclassMap<Company>
     {
-        public CompanyMap() 
+        public CompanyMap()
         {
-            Id(x => x.Id);
+            DiscriminatorValue(@"Company");
             Map(x => x.CompanyName);
             Map(x => x.CompanyID);
             Map(x => x.Industry);
             Map(x => x.Website);
-            Map(x => x.EmailAddress);
-            Map(x => x.Address);
-            Map(x => x.PhoneNumber);
             Map(x => x.FaxNumber);
         }
     }
