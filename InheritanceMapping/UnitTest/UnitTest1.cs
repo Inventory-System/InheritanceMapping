@@ -97,7 +97,6 @@ namespace UnitTest
                     transaction.Commit();
                 }
             }
-            Console.ReadLine();
         }
     }
 }
