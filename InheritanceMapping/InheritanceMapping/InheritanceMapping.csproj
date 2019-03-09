@@ -70,6 +70,7 @@
     <Compile Include="CompanyMap.cs" />
     <Compile Include="FluentNHibernateHelper.cs" />
     <Compile Include="Party.cs" />
+    <Compile Include="PartyMap.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="PersonMap.cs" />
     <Compile Include="Program.cs" />

@@ -7,18 +7,14 @@ using FluentNHibernate.Mapping;
 
 namespace InheritanceMapping
 {
-    public class PersonMap : ClassMap<Person>
+    public class PersonMap : SubclassMap<Person>
     {
         public PersonMap()
         {
-            Id(x => x.Id);
+            DiscriminatorValue(@"Person");
             Map(x => x.NationalIdentityNumber);
             Map(x => x.FirstName);
             Map(x => x.LastName);
-            Map(x => x.EmailAddress);
-            Map(x => x.Address);
-            Map(x => x.PhoneNumber);
-            
         }
     }
 }

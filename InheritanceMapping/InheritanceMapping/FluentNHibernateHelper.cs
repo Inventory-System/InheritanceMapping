@@ -23,14 +23,15 @@ namespace InheritanceMapping
             }
         }
 
-        private static ISessionFactory CreatSessionFactory() 
+        private static ISessionFactory CreatSessionFactory()
         {
-            string ConnectionString = "Data Source=.;Initial Catalog=InheritanchTestDB;Integrated Security=True";// Write your Connect String here
+            string ConnectionString = "Data Source=.;Initial Catalog=Inventory;User ID=sa;Password=sa123";// Write your Connect String here
             _sessionFactory = Fluently.Configure()
                 .Database(MsSqlConfiguration.MsSql2012.ConnectionString(ConnectionString).ShowSql())
                 .Mappings(m => m.FluentMappings.AddFromAssemblyOf<Program>())
                 .ExposeConfiguration(cfg => new SchemaExport(cfg).Create(true, true))
                 .BuildSessionFactory();
+        
             return _sessionFactory;
         }
         public static ISession OpenSesseion()

@@ -10,7 +10,10 @@ namespace InheritanceMapping
     {
         static void Main(string[] args)
         {
-           
+            using (var assinstin = FluentNHibernateHelper.OpenSesseion())
+            { 
+            }
+            Console.ReadKey();
         }
     }
 }
