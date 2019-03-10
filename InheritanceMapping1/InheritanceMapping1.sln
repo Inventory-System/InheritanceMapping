@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceMapping1", "InheritanceMapping1\InheritanceMapping1.csproj", "{A2AC1BF8-19A4-43D9-A13B-CB8BF672CB53}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TablePerConcreteClass", "InheritanceMapping1\TablePerConcreteClass.csproj", "{A2AC1BF8-19A4-43D9-A13B-CB8BF672CB53}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest.csproj", "{2A08AFE9-AF07-47FE-A8B6-4D42BE00FAE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TablePerType", "InheritanceMapping3\TablePerType.csproj", "{F5FF8E7E-8DA6-44F4-A491-A062C5D5EF70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TablePerHierarchy", "TablePerHierarchy\TablePerHierarchy.csproj", "{DC52C1FA-EA18-4350-8126-42DBB670D6ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceMapping", "InheritanceMapping\InheritanceMapping.csproj", "{04481EE4-D542-499F-B59C-FEDB8B56AF6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{2A08AFE9-AF07-47FE-A8B6-4D42BE00FAE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A08AFE9-AF07-47FE-A8B6-4D42BE00FAE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A08AFE9-AF07-47FE-A8B6-4D42BE00FAE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5FF8E7E-8DA6-44F4-A491-A062C5D5EF70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5FF8E7E-8DA6-44F4-A491-A062C5D5EF70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5FF8E7E-8DA6-44F4-A491-A062C5D5EF70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5FF8E7E-8DA6-44F4-A491-A062C5D5EF70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC52C1FA-EA18-4350-8126-42DBB670D6ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC52C1FA-EA18-4350-8126-42DBB670D6ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC52C1FA-EA18-4350-8126-42DBB670D6ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC52C1FA-EA18-4350-8126-42DBB670D6ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04481EE4-D542-499F-B59C-FEDB8B56AF6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04481EE4-D542-499F-B59C-FEDB8B56AF6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04481EE4-D542-499F-B59C-FEDB8B56AF6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04481EE4-D542-499F-B59C-FEDB8B56AF6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

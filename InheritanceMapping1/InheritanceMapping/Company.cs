@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InheritanceMapping
 {
-    public class Company:Party
+    public class Company : Party
     {
         public virtual int CompanyID { get; set; }
         public virtual string CompanyName { get; set; }
